@@ -5,7 +5,7 @@ namespace MauiAppMinhasCompras.Helpers
 {
     public class SQLiteDatabaseHelper
     {
-        readonly SQLiteAsyncConnection _conn;
+        readonly SQLiteAsyncConnection _conn; /*Somente leitura / connection*/
 
         public SQLiteDatabaseHelper(string path) /*string define o caminho até onde está o arquivo de texto, o nome vc escolhe (aqui usamos path)*/
         {
